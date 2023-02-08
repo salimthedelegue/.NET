@@ -20,7 +20,8 @@ namespace AM.ApplicationCore.Domain
         public Plane? plane { get; set; }
         public override string? ToString()
         {
-            return base.ToString();
+            return $"id={FlightId} flightdate={FlightDate} flightdate={FlightDate}";
+
         }
     }
     

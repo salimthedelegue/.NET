@@ -21,7 +21,8 @@ namespace AM.ApplicationCore.Domain
 
         public override string? ToString()
         {
-            return base.ToString();
+
+            return base.ToString()+ $"datemployement{EmployementDate} function{function} salary{Salary}";
         }
     }
 }

@@ -14,13 +14,13 @@ namespace AM.ApplicationCore.Domain
         public override void PassengerType()
         {
             base.PassengerType();
-            Console.WriteLine("I am a passenger I'am a Traveller");
+            Console.WriteLine(" I'am a Traveller");
         }
 
 
         public override string? ToString()
         {
-            return base.ToString();
+            return base.ToString() + $"HealthInformation={HealthInformation} Nationality={Nationality}"; 
         }
     }
 }
