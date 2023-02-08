@@ -9,7 +9,7 @@ Plane p1 = new Plane();
 
 p1.Capacity = 200;
 p1.ManufactureDate = new DateOnly(2015, 01, 16);
-p1.PlaneType = PlaneType.Boing;
+p1.Planetype = PlaneType.Boing;
 p1.PlaneId = 2;
 
 Console.WriteLine(p1);
